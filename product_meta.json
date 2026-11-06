@@ -1,0 +1,24 @@
+{
+  "number": 98,
+  "product_id": "JLZ-EDU-SK-080",
+  "chinese_name": "多校区标准对比",
+  "english_name": "Multi Campus Standard Comparator",
+  "repository_name": "edu-multi-campus-standard-comparator",
+  "product_type": "Skill",
+  "category": "08 校区标准化与多校区管理中心",
+  "version": "1.0.0",
+  "status": "PACKAGE_READY",
+  "workbuddy_validation": "NOT_VERIFIED",
+  "license": "Apache-2.0",
+  "baseline_tag": "education-product-baseline-v1.0.0",
+  "package_path": "dist/edu-multi-campus-standard-comparator-v1.0.0.zip",
+  "calculator": false,
+  "core_input": "校区名单、标准项、指标口径、数据周期、差异证据和权重",
+  "main_output": "标准对比表、差异热区、根因假设、优先级和改进路线",
+  "package_entries": [
+    "edu-multi-campus-standard-comparator/SKILL.md",
+    "edu-multi-campus-standard-comparator/references/DOMAIN_GUIDE.md",
+    "edu-multi-campus-standard-comparator/references/EXAMPLES.md",
+    "edu-multi-campus-standard-comparator/templates/OUTPUT_TEMPLATE.md"
+  ]
+}
