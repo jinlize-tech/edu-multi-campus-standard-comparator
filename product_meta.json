@@ -6,19 +6,37 @@
   "repository_name": "edu-multi-campus-standard-comparator",
   "product_type": "Skill",
   "category": "08 校区标准化与多校区管理中心",
-  "version": "1.0.0",
-  "status": "PACKAGE_READY",
-  "workbuddy_validation": "NOT_VERIFIED",
+  "version": "1.0.1",
+  "previous_version": "1.0.0",
+  "g5_status": "G5_STRENGTHENED",
+  "status": "G9_PRE_RELEASE_ACCEPTED",
+  "package_state": "GITHUB_PACKAGE_PRE_RELEASE_READY",
+  "runtime_status": "NOT_RUNTIME_VERIFIED",
+  "workbuddy_validation": "WORKBUDDY_VALIDATION_NOT_IN_SCOPE",
   "license": "Apache-2.0",
   "baseline_tag": "education-product-baseline-v1.0.0",
-  "package_path": "dist/edu-multi-campus-standard-comparator-v1.0.0.zip",
+  "baseline_commit": "de51dbfd957dac18725fdb829a04893fb53b1ff9",
+  "package_path": "dist/edu-multi-campus-standard-comparator-v1.0.1.zip",
+  "previous_package_path": "dist/edu-multi-campus-standard-comparator-v1.0.0.zip",
+  "previous_package_sha256": "CA96C0A998A919DBA91135DD73DA3DCEDF10C813A6C2ED03A94BAE9AF42518B0",
   "calculator": false,
   "core_input": "校区名单、标准项、指标口径、数据周期、差异证据和权重",
   "main_output": "标准对比表、差异热区、根因假设、优先级和改进路线",
+  "main_output_fields": [
+    "标准对比表",
+    "差异热区",
+    "根因假设",
+    "优先级和改进路线"
+  ],
   "package_entries": [
     "edu-multi-campus-standard-comparator/SKILL.md",
     "edu-multi-campus-standard-comparator/references/DOMAIN_GUIDE.md",
     "edu-multi-campus-standard-comparator/references/EXAMPLES.md",
-    "edu-multi-campus-standard-comparator/templates/OUTPUT_TEMPLATE.md"
+    "edu-multi-campus-standard-comparator/templates/OUTPUT_TEMPLATE.md",
+    "edu-multi-campus-standard-comparator/README.md",
+    "edu-multi-campus-standard-comparator/USAGE.md",
+    "edu-multi-campus-standard-comparator/LICENSE",
+    "edu-multi-campus-standard-comparator/THIRD_PARTY_NOTICES.md",
+    "edu-multi-campus-standard-comparator/scripts/validate_input.js"
   ]
 }
